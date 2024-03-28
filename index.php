@@ -20,10 +20,10 @@
                 <div class="sub_title">
                     <h6>Lorem ipsum dolor sit amet consectetur. Dis mattis eget habitasse suspendisse penatibus amet massa. Turpis habitasse nunc vestibulum at porttitor.</h6>
                 </div>
-                <div class="extration_btn">
-                    <button class="btn me-3"> Button
+                <div class="extration_btn py-4 my-3">
+                    <button class="btn me-1"> Button
                     </button>
-                    <button class="btn"> Button
+                    <button class="btn contact_btn"> Button
                     </button>
                 </div>
             </div>

@@ -177,12 +177,13 @@ a {
     background-image: url('../images/bg_vector1.webp');
     background-size: 100% 100%;
     background-repeat: no-repeat;
-
+    min-height: 100vh;
 }
 
 .landing_page_Extraction {
     padding-top: 3rem;
     width: 50%;
+    padding-bottom: 3rem;
 }
 
 .landing_page_Extraction .main_title h1 {
@@ -194,4 +195,21 @@ a {
 .main_title h1 .special {
     color: #940000;
     font-weight: 600;
+}
+
+.sub_title h6 {
+    line-height: 25px;
+}
+
+.extration_btn .btn {
+
+    padding: 0.56rem 2rem;
+    color: #fff;
+    background-color: #940000;
+}
+
+.btn.contact_btn {
+    background-color: #f2f2f2;
+    color: #940000;
+    border: 2px solid #940000;
 }
