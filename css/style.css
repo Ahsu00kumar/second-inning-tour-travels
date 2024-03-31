@@ -18,6 +18,11 @@ a {
     text-decoration: none;
 }
 
+header {
+    position: relative;
+    z-index: 3;
+}
+
 .logo_parent .header_logo {
     width: 120px;
     height: auto;
@@ -45,6 +50,12 @@ a {
 
 }
 
+.all_menu_option>ul>li:nth-last-child(2) a {
+    color: #fff;
+}
+.all_menu_option>ul>li:nth-last-child(1) a {
+    color: #fff;
+}
 /* for mobile view btn start */
 .for_mobile_view {
     display: none;
@@ -178,7 +189,23 @@ a {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     min-height: 100vh;
-    background-color: #0000006b;
+    position: relative;
+    z-index: 1;
+    background-color: #00000022;
+}
+
+.main_content::before {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    background-image: url(../images/vector.webp);
+    width: 510px;
+    height: 590px;
+    object-fit: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: -76px;
+    top: -55px;
 }
 
 .landing_page_Extraction {
