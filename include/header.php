@@ -2,9 +2,11 @@
     <div class="container mx-auto">
         <ul class="for_header_parent">
             <li class="logo_parent">
-                <div class="header_logo">
-                    <img src="images/logo.webp" alt="Second Inning Logo">
-                </div>
+                <a href="index.php">
+                    <div class="header_logo">
+                        <img src="images/logo.webp" alt="Second Inning Logo">
+                    </div>
+                </a>
             </li>
             <li class="for_mobile_view">
                 <div class="content-header">
@@ -18,7 +20,7 @@
             <li class="menus">
                 <div class="all_menu_option">
                     <ul>
-                        <li><a href="">Home</a></li>
+                        <li><a href="index.php">Home</a></li>
                         <li><a href="">About Us</a></li>
                         <li><a href="">Explore</a></li>
                         <li><a href="">Services</a></li>

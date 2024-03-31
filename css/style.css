@@ -178,6 +178,7 @@ a {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     min-height: 100vh;
+    background-color: #0000006b;
 }
 
 .landing_page_Extraction {
@@ -195,10 +196,12 @@ a {
 .main_title h1 .special {
     color: #940000;
     font-weight: 600;
+    filter: drop-shadow(1px 1px 0px black);
 }
 
 .sub_title h6 {
     line-height: 25px;
+    color: #191919;
 }
 
 .extration_btn .btn {
