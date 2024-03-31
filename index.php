@@ -27,6 +27,10 @@
                     </button>
                 </div>
             </div>
+            <div class="go_to_below">
+                <div class="go_below_icon"></div>
+                <div class="go_below_para"></div>
+            </div>
         </div>
     </div>
 

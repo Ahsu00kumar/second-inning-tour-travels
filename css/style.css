@@ -53,9 +53,11 @@ header {
 .all_menu_option>ul>li:nth-last-child(2) a {
     color: #fff;
 }
+
 .all_menu_option>ul>li:nth-last-child(1) a {
     color: #fff;
 }
+
 /* for mobile view btn start */
 .for_mobile_view {
     display: none;
@@ -206,6 +208,7 @@ header {
     background-repeat: no-repeat;
     right: -76px;
     top: -55px;
+    filter: drop-shadow(2px 4px 6px black);
 }
 
 .landing_page_Extraction {
@@ -243,3 +246,14 @@ header {
     color: #940000;
     border: 2px solid #940000;
 }
+
+.go_to_below {
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* --------- below landing page css ----------- */
