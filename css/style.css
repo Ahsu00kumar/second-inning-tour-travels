@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body {
     box-sizing: border-box;
     overflow-x: hidden;
     margin: 0px;
     padding: 0px;
     font-family: "Alata", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
     background-color: #fff;
 }
 
@@ -310,4 +317,97 @@ p.go_below_para_p {
     width: 100%;
     outline: none;
     border: none;
+}
+
+.we_do h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #940000;
+    /* letter-spacing: 2px; */
+}
+
+.we_do h1>span {
+    color: #000;
+}
+
+.we_do {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+
+.card_container img {
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+    padding: 0.25rem;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 26%);
+}
+
+.card_parent {
+    padding-top: 0.8rem;
+}
+
+.card {
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.20);
+}
+
+.we_do>p {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.hr {
+    opacity: 0.05;
+}
+
+ul.list-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+ul.list-group li {
+    width: 265px;
+}
+
+.card>span {
+    position: absolute;
+    z-index: 1;
+    font-family: "Roboto", sans-serif;
+    font-size: 14rem;
+    color: #94000014;
+    top: -10%;
+    /* font-family: "Montserrat", sans-serif; */
+    /* font-family: "Poppins", sans-serif; */
+}
+
+.card_container p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #505050;
+}
+
+.card_container h5 {
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #000;
 }
