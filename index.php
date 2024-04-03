@@ -20,18 +20,74 @@
                 <div class="sub_title">
                     <h6>Lorem ipsum dolor sit amet consectetur. Dis mattis eget habitasse suspendisse penatibus amet massa. Turpis habitasse nunc vestibulum at porttitor.</h6>
                 </div>
-                <div class="extration_btn py-4">
-                    <button class="btn me-1"> Button
-                    </button>
-                    <button class="btn contact_btn"> Button
-                    </button>
+                <div class="extration_btn pt-4 pb-3\2">
+                    <button class="btn me-1">Button</button>
+                    <button class="btn contact_btn">Button</button>
                 </div>
             </div>
             <div class="go_to_below">
-                <div class="go_below_icon"></div>
-                <div class="go_below_para"></div>
+                <div class="go_below_icon"><img src="images/carret_down.svg" alt="carret down" width="35px"></div>
+                <div class="go_below_para">
+                    <p class="go_below_para_p">It’s Time To New Adventure, Escapes Thrills & Experience</p>
+                </div>
             </div>
         </div>
+    </div>
+    <div class="container">
+        <section class="search_vehical">
+            <div class="box_search_vehical">
+                <form action="" method="get">
+                    <div class="row mx-0">
+                        <div class="col-sm-2 px-1" >
+                            <div class="inliner">
+                                <span>
+                                    <img src="images/from_location.svg" alt="from_location">
+                                </span>
+                                <input type="text" value="" placeholder="From">
+                            </div>
+                        </div>
+                        <div class="col-sm-2 px-1">
+                            <div class="inliner">
+                                <span>
+                                    <img src="images/to_location.svg" alt="to_location">
+                                </span>
+                                <input type="text" value="" placeholder="To">
+                            </div>
+                        </div>
+                        <div class="col-sm-2 px-1">
+                            <div class="inliner">
+                                <span>
+                                    <img src="images/in_date.svg" alt="to_location">
+                                </span>
+                                <input type="text" value="" placeholder="Check In Date">
+                            </div>
+                        </div>
+                        <div class="col-sm-2 px-1">
+                            <div class="inliner">
+                                <span>
+                                    <img src="images/out_date.svg" alt="to_location">
+                                </span>
+                                <input type="text" value="" placeholder="Check Out Date">
+                            </div>
+                        </div>
+                        <div class="col-sm-2 px-1">
+                            <div class="inliner">
+                                <span>
+                                    <img src="images/nu_of_guest.svg" alt="to_location">
+                                </span>
+                                <input type="text" value="" placeholder="Guest">
+                            </div>
+                        </div>
+                        <div class="col-sm-2 px-0">
+                            <div class="inliner px-0" >
+                               <a href="#"><input type="button" value="Search"></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+        </section>
     </div>
 
 

@@ -254,6 +254,60 @@ header {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding-bottom: 2rem;
+}
+
+p.go_below_para_p {
+    font-size: 18px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 500;
 }
 
 /* --------- below landing page css ----------- */
+
+.search_vehical {
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+    margin-top: -50px;
+    border-radius: 0.5rem;
+}
+
+.box_search_vehical {
+    border: 3px solid #FF9F10;
+    padding: 2rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.inliner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: #fff;
+    border-radius: 0.3rem;
+    padding: 0px 0.3rem;
+    box-shadow: 0px 0px 5px 0px rgba(212, 212, 212, 1);
+}
+
+.inliner input[type="text"] {
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.inliner a {
+    width: 100%;
+}
+
+.inliner a input[type="button"] {
+    padding: .5rem;
+    background-color: #940000;
+    color: #fff;
+    border-radius: 0.35rem;
+    width: 100%;
+    outline: none;
+    border: none;
+}
