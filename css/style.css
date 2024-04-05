@@ -13,7 +13,7 @@ body {
     padding: 0px;
     font-family: "Alata", sans-serif;
     /* font-family: "Poppins", sans-serif; */
-    background-color: #fff;
+    background-color: #fff7f7;
 }
 
 ul {
@@ -303,6 +303,10 @@ p.go_below_para_p {
     outline: none;
     padding: 0.5rem;
     width: 100%;
+    color: #787878;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400 !important;
 }
 
 .inliner a {
@@ -369,7 +373,7 @@ p.go_below_para_p {
 .we_do>p {
     font-family: "Poppins", sans-serif;
     font-size: 14px;
-    line-height: 26px;
+    line-height: 30px;
     font-weight: 400;
 }
 
@@ -386,23 +390,27 @@ ul.list-group {
 
 ul.list-group li {
     width: 265px;
+    height: 275px;
+}
+
+.list-group .card {
+    justify-content: center;
 }
 
 .card>span {
     position: absolute;
     z-index: 1;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
+
     font-size: 14rem;
     color: #94000014;
     top: -10%;
-    /* font-family: "Montserrat", sans-serif; */
-    /* font-family: "Poppins", sans-serif; */
 }
 
 .card_container p {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 13px;
     color: #505050;
 }
 

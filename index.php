@@ -103,7 +103,7 @@
                         <div class="card_container">
                             <img src="images/Group_16.svg" alt="icon image">
                             <h5 class="mt-2">Lorem ipsum dolor</h5>
-                            <p class="mb-0">Lorem ipsum dolor sit amet consectetur. Dis mattis eget enatibus amet mas.Lorem ipsum dolor sit amet consecte.</p>
+                            <p class="mb-0">Lorem ipsum dolor sit amet consectetur. Dis mattis eget enatibus amet mas. Lorem ipsum dolor sit.</p>
                         </div>
                     </li>
                     <li class="card p-4">
@@ -111,7 +111,7 @@
                         <div class="card_container">
                             <img src="images/Group_37.svg" alt="icon image">
                             <h5 class="mt-2">Lorem ipsum dolor</h5>
-                            <p class="mb-0">Lorem ipsum dolor sit amet consectetur. Dis mattis eget enatibus amet mas.Lorem ipsum dolor sit amet consecte.</p>
+                            <p class="mb-0">Lorem ipsum dolor sit amet consectetur. Dis mattis eget enatibus amet mas. Lorem ipsum dolor sit.</p>
                         </div>
                     </li>
                     <li class="card p-4">
@@ -119,7 +119,7 @@
                         <div class="card_container">
                             <img src="images/Group.svg" alt="icon image">
                             <h5 class="mt-2">Lorem ipsum dolor</h5>
-                            <p class="mb-0">Lorem ipsum dolor sit amet consectetur. Dis mattis eget enatibus amet mas.Lorem ipsum dolor sit amet consecte.</p>
+                            <p class="mb-0">Lorem ipsum dolor sit amet consectetur. Dis mattis eget enatibus amet mas. Lorem ipsum dolor sit.</p>
                         </div>
                     </li>
                     <li class="card p-4">
@@ -127,7 +127,7 @@
                         <div class="card_container">
                             <img src="images/Vector.svg" alt="icon image">
                             <h5 class="mt-2">Lorem ipsum dolor</h5>
-                            <p class="mb-0">Lorem ipsum dolor sit amet consectetur. Dis mattis eget enatibus amet mas.Lorem ipsum dolor sit amet consecte.</p>
+                            <p class="mb-0">Lorem ipsum dolor sit amet consectetur. Dis mattis eget enatibus amet mas. Lorem ipsum dolor sit.</p>
                         </div>
                     </li>
 
