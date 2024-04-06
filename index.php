@@ -166,10 +166,10 @@
             <h1 class="text-uppercase text-center"><span>What our</span> clients <span>Says</span></h1>
             <h5>Testimonials</h5>
         </div>
-
+        <!-- owl-carousel -->
 
         <div class="testimonial">
-            <div class="row mx-0 owl-carousel">
+            <div class="row mx-0 ">
                 <div class="col-sm-6 my-3">
                     <div class="card p-3 d-flex justify-content-center flex-direction-row">
                         <img src="images/test1.jpg" alt="Testimonials 1">
