@@ -136,7 +136,102 @@
         </div>
     </div>
 
+    <!-- let’s Explore Banaras -->
+    <div class="container">
+        <div class="we_do py-4">
+            <h1 class="text-uppercase text-center"><span>let’s Explore</span> Banaras</h1>
+            <p class="text-center w-75 ">Lorem ipsum dolor sit amet consectetur. Dis mattis eget habitasse suspendisse penatibus amet massa. Turpis habitasse nunc vestibulum at porttitor.</p>
+        </div>
 
+        <div class="explore_card pb-5">
+            <ul class="mx-0 row ">
+                <li class="mx-0 col-sm-3 col-6">
+                    <img src="images/explore1.webp" alt="Explore Banaras">
+                </li>
+                <li class="mx-0 col-sm-3 col-6">
+                    <img src="images/explore2.webp" alt="Explore Banaras">
+                </li>
+                <li class="mx-0 col-sm-3 col-6">
+                    <img src="images/explore3.webp" alt="Explore Banaras">
+                </li>
+                <li class="mx-0 col-sm-3 col-6">
+                    <img src="images/explore5.webp" alt="Explore Banaras">
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container mb-5">
+        <div class="we_do py-2">
+            <h1 class="text-uppercase text-center"><span>What our</span> clients <span>Says</span></h1>
+            <h5>Testimonials</h5>
+        </div>
+
+
+        <div class="testimonial">
+            <div class="row mx-0 owl-carousel">
+                <div class="col-sm-6 my-3">
+                    <div class="card p-3 d-flex justify-content-center flex-direction-row">
+                        <img src="images/test1.jpg" alt="Testimonials 1">
+                        <p>Lorem ipsum dolor sit amet consectetur ipsum dolor sit amet consectetur. Dis mattis eget habitasse suspendisse penatibus amet massa.......</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 my-3">
+                    <div class="card p-3 d-flex justify-content-center flex-direction-row">
+                        <img src="images/test2.jpg" alt="Testimonials 1">
+                        <p>Lorem ipsum amet consectetur ipsum dolor sit amet consectetur. Dis mattis eget habitasse suspendisse penatibus amet massa.......</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 my-3">
+                    <div class="card p-3 d-flex justify-content-center flex-direction-row">
+                        <img src="images/test1.jpg" alt="Testimonials 1">
+                        <p>Lorem ipsum dolor sit amet consectetur ipsum dolor sit amet consectetur. Dis mattis eget habitasse suspendisse penatibus amet massa.......</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 my-3">
+                    <div class="card p-3 d-flex justify-content-center flex-direction-row">
+                        <img src="images/test2.jpg" alt="Testimonials 1">
+                        <p>Lorem ipsum amet consectetur ipsum dolor sit amet consectetur. Dis mattis eget habitasse suspendisse penatibus amet massa.......</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 my-3">
+                    <div class="card p-3 d-flex justify-content-center flex-direction-row">
+                        <img src="images/test1.jpg" alt="Testimonials 1">
+                        <p>Lorem ipsum dolor sit amet consectetur ipsum dolor sit amet consectetur. Dis mattis eget habitasse suspendisse penatibus amet massa.......</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 my-3">
+                    <div class="card p-3 d-flex justify-content-center flex-direction-row">
+                        <img src="images/test2.jpg" alt="Testimonials 1">
+                        <p>Lorem ipsum amet consectetur ipsum dolor sit amet consectetur. Dis mattis eget habitasse suspendisse penatibus amet massa.......</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
+                },
+                600: {
+                    items: 3,
+                    nav: false
+                },
+                1000: {
+                    items: 5,
+                    nav: true,
+                    loop: false
+                }
+            }
+        })
+    </script>
 
 
 
