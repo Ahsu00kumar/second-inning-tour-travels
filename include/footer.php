@@ -1,5 +1,87 @@
-<script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
-<script src="plugin/owlcarousel2/dist/owl.carousel.min.js"></script>
+<footer>
+    <div class="container">
+        <div class="row mx-0 py-5">
+            <div class="col-sm-3">
+
+                <div class="foot_logo d-flex align-items-center">
+                    <img src="images/logo.webp" alt="second inning tours" width="120px">
+                    <span>Second Inning Tours</span>
+                </div>
+                <div class="sub_logo_title">
+                    <p>Lorem ipsum dolor sit amet consectetur. Dis mattis eget habitasse
+                        suspendisse penatibus amet massa. Turpis habitasse nunc
+                        vestibulum at porttitor.</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+
+                <div class="text-end foot_call address">
+                    <h5>Address</h5>
+                    <ul>
+                        <li>
+                            <a href="">
+                                Office location - near by Overbridge
+                                telibandha, Raipur, Chhattisgarh <br>
+                                - 492001
+                            </a>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-3">
+
+                <div class="text-end foot_call Quick_Link">
+                    <h5>Quick Link</h5>
+                    <ul>
+                        <li> <a href="index.php"> Home </a> </li>
+                        <li> <a href="index.php"> About Us </a> </li>
+                        <li> <a href="index.php"> Explore </a> </li>
+                        <li> <a href="index.php"> Services </a> </li>
+                        <li> <a href="index.php"> Contact Us </a> </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-3 text-end">
+
+                <div class="text-end foot_call newsletter">
+                    <h5>Subscribe to Our Newsletter</h5>
+
+                    <form action="" method="post">
+                        <div class="newsletter_head">
+                            <span><input type="text" name="newsletter" placeholder="Email Address"></span>
+                            <a href="index.php" title="send"> Go </a>
+                        </div>
+                    </form>
+
+                </div>
+                <div class="text-end foot_call Quick_Link">
+                    <h5>Social Media links</h5>
+                    <ul>
+                        <li>
+                            <a href="#"><i title="Facebook"></i> </a>
+                        </li>
+                        <li>
+                            <a href="#"><i title="Instagram"></i> </a>
+                        </li>
+                        <li>
+                            <a href="#"><i title="Email"></i> </a>
+                        </li>
+                        <li>
+                            <a href="#"><i title="Call"></i> </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script src="../plugin/slick/slick/slick.min.js"></script>
 <script>
     (function() {
 

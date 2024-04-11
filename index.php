@@ -169,7 +169,7 @@
         <!-- owl-carousel -->
 
         <div class="testimonial">
-            <div class="row mx-0 ">
+            <div class="row mx-0 " id="responsive">
                 <div class="col-sm-6 my-3">
                     <div class="card p-3 d-flex justify-content-center flex-direction-row">
                         <img src="images/test1.jpg" alt="Testimonials 1">
@@ -209,33 +209,84 @@
             </div>
         </div>
     </div>
+    <div class="bg_added">
+        <div class="container mb-5">
+            <div class="row mx-0 py-4 d-flex align-items-center">
+                <div class="col-sm-4">
+                    <div class="find_place">
+                        <h2>Find The Prefect <br>
+                            Place</h2>
+                        <h6 class="sub_header">Lorem ipsum dolor sit amet consectetur. Dis
+                            mattis epenatibus amet.</h6>
 
-    <script>
-        $('.owl-carousel').owlCarousel({
-            loop: true,
-            margin: 10,
-            responsiveClass: true,
-            responsive: {
-                0: {
-                    items: 1,
-                    nav: true
+                        <div class="extration_btn pt-4 pb-3 ">
+                            <button class="btn me-1">View More</button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <div class="row mx-0 ">
+                        <div class="col-4">
+                            <div class="img">
+                                <img src="images/explore5.webp" alt="explore" width="100%">
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="img">
+                                <img src="images/explore3.webp" alt="explore" width="100%">
+                            </div>
+                        </div>
+
+
+                        <div class="col-4">
+                            <div class="img">
+                                <img src="images/explore4.webp" alt="explore" width="100%">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <script>
+        $('#responsive').slick({
+            dots: true,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            responsive: [{
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
                 },
-                600: {
-                    items: 3,
-                    nav: false
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
                 },
-                1000: {
-                    items: 5,
-                    nav: true,
-                    loop: false
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
                 }
-            }
-        })
-    </script>
-
-
-
-
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+    </script> -->
     <?php include('include/footer.php') ?>
 </body>
 
