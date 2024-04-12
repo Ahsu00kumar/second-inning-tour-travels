@@ -469,8 +469,8 @@ ul.list-group li {
     border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
     transform: scale(1);
     transition: 0.25s ease-in-out;
-    padding-left: 1rem;
-    padding-bottom: 1rem;
+    /* padding-left: 1rem; */
+    /* padding-bottom: 1rem; */
 }
 
 .img img:hover {
