@@ -226,7 +226,7 @@
             </div>
         </div>
     </div>
-    <div class="bg_added">
+    <div class="bg_added py-2">
         <div class="container mb-5">
             <div class="row mx-0 py-4 d-flex align-items-center">
                 <div class="col-sm-4">
@@ -243,7 +243,7 @@
                     </div>
                 </div>
                 <div class="col-sm-8">
-                    <div class="row mx-0 ">
+                    <div class="row mx-0 " id="explore">
                         <div class="col-4">
                             <div class="img">
                                 <img src="images/explore5.webp" alt="explore" width="100%">
@@ -261,6 +261,23 @@
                                 <img src="images/explore4.webp" alt="explore" width="100%">
                             </div>
                         </div>
+                        <!-- <div class="col-4">
+                            <div class="img">
+                                <img src="images/explore5.webp" alt="explore" width="100%">
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="img">
+                                <img src="images/explore3.webp" alt="explore" width="100%">
+                            </div>
+                        </div>
+
+
+                        <div class="col-4">
+                            <div class="img">
+                                <img src="images/explore4.webp" alt="explore" width="100%">
+                            </div>
+                        </div> -->
 
                     </div>
                 </div>

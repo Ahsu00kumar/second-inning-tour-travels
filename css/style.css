@@ -466,9 +466,11 @@ ul.list-group li {
 .img img {
     height: 235px;
     object-fit: cover;
-    border-radius: 0.5rem;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
     transform: scale(1);
     transition: 0.25s ease-in-out;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
 }
 
 .img img:hover {
@@ -478,8 +480,8 @@ ul.list-group li {
 }
 
 .bg_added {
-    background-image: url('images/bg_vector1.webp');
-    background-size: 100% 100%;
+    background-image: url('../images/explore_bg.svg');
+    background-size: contain;
     background-repeat: repeat-x;
 
 }
