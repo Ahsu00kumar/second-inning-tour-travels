@@ -161,7 +161,7 @@
         </div>
     </div>
 
-    <div class="container mb-5">
+    <div class="container mb-5 pb-3">
         <div class="we_do py-2">
             <h1 class="text-uppercase text-center"><span>What our</span> clients <span>Says</span></h1>
             <h5>Testimonials</h5>
@@ -171,39 +171,56 @@
         <div class="testimonial">
             <div class="row mx-0 " id="responsive">
                 <div class="col-sm-6 my-3">
-                    <div class="card p-3 d-flex justify-content-center flex-direction-row">
-                        <img src="images/test1.jpg" alt="Testimonials 1">
-                        <p>Lorem ipsum dolor sit amet consectetur ipsum dolor sit amet consectetur. Dis mattis eget habitasse suspendisse penatibus amet massa.......</p>
+                    <div class="px-3">
+                        <div class="card p-3 d-flex justify-content-center flex-direction-row">
+                            <img src="images/test1.jpg" alt="Testimonials 1">
+                            <p>Lorem ipsum dolor sit amet consectetur ipsum dolor sit amet consectetur. Dis mattis eget habitasse suspendisse penatibus amet massa.......</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-sm-6 my-3">
-                    <div class="card p-3 d-flex justify-content-center flex-direction-row">
-                        <img src="images/test2.jpg" alt="Testimonials 1">
-                        <p>Lorem ipsum amet consectetur ipsum dolor sit amet consectetur. Dis mattis eget habitasse suspendisse penatibus amet massa.......</p>
+                    <div class="px-3">
+
+                        <div class="card p-3 d-flex justify-content-center flex-direction-row">
+                            <img src="images/test2.jpg" alt="Testimonials 1">
+                            <p>Lorem ipsum amet consectetur ipsum dolor sit amet consectetur. Dis mattis eget habitasse suspendisse penatibus amet massa.......</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-sm-6 my-3">
-                    <div class="card p-3 d-flex justify-content-center flex-direction-row">
-                        <img src="images/test1.jpg" alt="Testimonials 1">
-                        <p>Lorem ipsum dolor sit amet consectetur ipsum dolor sit amet consectetur. Dis mattis eget habitasse suspendisse penatibus amet massa.......</p>
+                    <div class="px-3">
+
+                        <div class="card p-3 d-flex justify-content-center flex-direction-row">
+                            <img src="images/test1.jpg" alt="Testimonials 1">
+                            <p>Lorem ipsum dolor sit amet consectetur ipsum dolor sit amet consectetur. Dis mattis eget habitasse suspendisse penatibus amet massa.......</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-sm-6 my-3">
-                    <div class="card p-3 d-flex justify-content-center flex-direction-row">
-                        <img src="images/test2.jpg" alt="Testimonials 1">
-                        <p>Lorem ipsum amet consectetur ipsum dolor sit amet consectetur. Dis mattis eget habitasse suspendisse penatibus amet massa.......</p>
+                    <div class="px-3">
+
+                        <div class="card p-3 d-flex justify-content-center flex-direction-row">
+                            <img src="images/test2.jpg" alt="Testimonials 1">
+                            <p>Lorem ipsum amet consectetur ipsum dolor sit amet consectetur. Dis mattis eget habitasse suspendisse penatibus amet massa.......</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-sm-6 my-3">
-                    <div class="card p-3 d-flex justify-content-center flex-direction-row">
-                        <img src="images/test1.jpg" alt="Testimonials 1">
-                        <p>Lorem ipsum dolor sit amet consectetur ipsum dolor sit amet consectetur. Dis mattis eget habitasse suspendisse penatibus amet massa.......</p>
+                    <div class="px-3">
+
+                        <div class="card p-3 d-flex justify-content-center flex-direction-row">
+                            <img src="images/test1.jpg" alt="Testimonials 1">
+                            <p>Lorem ipsum dolor sit amet consectetur ipsum dolor sit amet consectetur. Dis mattis eget habitasse suspendisse penatibus amet massa.......</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-sm-6 my-3">
-                    <div class="card p-3 d-flex justify-content-center flex-direction-row">
-                        <img src="images/test2.jpg" alt="Testimonials 1">
-                        <p>Lorem ipsum amet consectetur ipsum dolor sit amet consectetur. Dis mattis eget habitasse suspendisse penatibus amet massa.......</p>
+                    <div class="px-3">
+
+                        <div class="card p-3 d-flex justify-content-center flex-direction-row">
+                            <img src="images/test2.jpg" alt="Testimonials 1">
+                            <p>Lorem ipsum amet consectetur ipsum dolor sit amet consectetur. Dis mattis eget habitasse suspendisse penatibus amet massa.......</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -251,42 +268,7 @@
         </div>
     </div>
 
-    <!-- <script>
-        $('#responsive').slick({
-            dots: true,
-            infinite: false,
-            speed: 300,
-            slidesToShow: 4,
-            slidesToScroll: 4,
-            responsive: [{
-                    breakpoint: 1024,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 1,
-                        infinite: true,
-                        dots: true
-                    }
-                },
-                {
-                    breakpoint: 600,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1
-                    }
-                },
-                {
-                    breakpoint: 480,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1
-                    }
-                }
-                // You can unslick at a given breakpoint now by adding:
-                // settings: "unslick"
-                // instead of a settings object
-            ]
-        });
-    </script> -->
+   
     <?php include('include/footer.php') ?>
 </body>
 
