@@ -50,25 +50,25 @@
                     <form action="" method="post">
                         <div class="newsletter_head">
                             <span><input type="text" name="newsletter" placeholder="Email Address"></span>
-                            <a href="index.php" title="send"> Go </a>
+                            <a href="index.php" title="send"><img src="images/arrow_right.svg" alt="submit newsletter" width="16px" height="16px"></a>
                         </div>
                     </form>
 
                 </div>
-                <div class="text-end foot_call Quick_Link">
+                <div class="text-end foot_call Quick_Link social_media">
                     <h5>Social Media links</h5>
-                    <ul>
+                    <ul class="social">
                         <li>
-                            <a href="#"><i title="Facebook"></i> </a>
+                            <a href="#"><img src="images/facebook.svg" alt="click & view are FB page" width="36px" height="36px"> </a>
                         </li>
                         <li>
-                            <a href="#"><i title="Instagram"></i> </a>
+                            <a href="#"><img src="images/instagram.svg" alt="Folow are insta page" width="36px" height="36px"></a>
                         </li>
                         <li>
-                            <a href="#"><i title="Email"></i> </a>
+                            <a href="#"><img src="images/email.svg" alt="Mail Me" width="36px" height="36px"></a>
                         </li>
                         <li>
-                            <a href="#"><i title="Call"></i> </a>
+                            <a href="#"><img src="images/call.svg" alt="Call me" width="36px" height="36px"> </a>
                         </li>
 
                     </ul>
@@ -79,7 +79,6 @@
 </footer>
 
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<!-- <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
 <script type="text/javascript" src="plugin/slick/slick/slick.min.js"></script>
 
 <script>
@@ -195,40 +194,3 @@
         ]
     });
 </script>
-<!-- <script>
-    $('#explore').slick({
-        dots: false,
-        infinite: false,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 5000,
-        infinite: true,
-        speed: 1000,
-
-        responsive: [{
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
-                    infinite: true,
-                    dots: true
-                }
-            },
-            {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }
-        ]
-    });
-</script> -->

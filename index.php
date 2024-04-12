@@ -261,23 +261,7 @@
                                 <img src="images/explore4.webp" alt="explore" width="100%">
                             </div>
                         </div>
-                        <!-- <div class="col-4">
-                            <div class="img">
-                                <img src="images/explore5.webp" alt="explore" width="100%">
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="img">
-                                <img src="images/explore3.webp" alt="explore" width="100%">
-                            </div>
-                        </div>
-
-
-                        <div class="col-4">
-                            <div class="img">
-                                <img src="images/explore4.webp" alt="explore" width="100%">
-                            </div>
-                        </div> -->
+                      
 
                     </div>
                 </div>

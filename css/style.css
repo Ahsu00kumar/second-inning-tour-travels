@@ -1,10 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Beau+Rivage&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
     box-sizing: border-box;
@@ -475,7 +469,7 @@ ul.list-group li {
 
 .img img:hover {
     transition: 0.25s ease-in-out;
-    transform: scale(1.14);
+    transform: scale(1.12);
 
 }
 
@@ -491,8 +485,8 @@ footer {
 }
 
 .sub_logo_title p {
-    font-size: 14px;
-    color: #505050;
+    font-size: 12px;
+    color: #484848;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     padding-top: 1rem;
@@ -533,10 +527,13 @@ footer {
 }
 
 .newsletter_head a {
-    padding: 0.5rem 0.85rem;
+    padding: 0.7rem 0.85rem;
     border: 0.1rem solid #940000;
     border-radius: 0.25rem;
     margin-left: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .slick-dots li button:before {
@@ -551,4 +548,21 @@ footer {
 
 .slick-dots li button:before {
     color: #940000 !important;
+}
+
+.foot_logo span {
+    font-family: "Beau Rivage", cursive;
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #000;
+    text-shadow: 0 0 black;
+}
+
+.foot_call ul.social {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.social_media h5{
+    margin-bottom: 0.8rem;
 }
