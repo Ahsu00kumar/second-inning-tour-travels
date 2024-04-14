@@ -563,6 +563,17 @@ footer {
     justify-content: end;
     align-items: center;
 }
-.social_media h5{
+
+.social_media h5 {
     margin-bottom: 0.8rem;
+}
+
+.hover_effect ul li {
+    transition: 0.55s ease-in;
+}
+
+.hover_effect ul li:hover a {
+    padding-right: 0.5rem;
+    transition: 0.25s ease-out;
+    color: #940000;
 }

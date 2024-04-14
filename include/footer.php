@@ -31,7 +31,7 @@
             </div>
             <div class="col-sm-3">
 
-                <div class="text-end foot_call Quick_Link">
+                <div class="text-end foot_call Quick_Link hover_effect">
                     <h5>Quick Link</h5>
                     <ul>
                         <li> <a href="index.php"> Home </a> </li>
