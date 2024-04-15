@@ -188,7 +188,7 @@ header {
 
 
 .main_content {
-    background-image: url('https://raw.githubusercontent.com/Ahsu00kumar/second-inning-tour-travels/main/images/Vector.webp');
+    background-image: url('../images/bg_vector1.webp');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     min-height: 100vh;
@@ -201,7 +201,7 @@ header {
     content: '';
     position: absolute;
     z-index: 0;
-    background-image: url(../images/vector.webp);
+    background-image: url(https://raw.githubusercontent.com/Ahsu00kumar/second-inning-tour-travels/main/images/Vector.webp);
     width: 510px;
     height: 590px;
     object-fit: cover;
