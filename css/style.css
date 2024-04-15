@@ -610,6 +610,10 @@ footer {
 }
 
 @media (max-width:768px) {
+    .container-xl{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
     .main_content::before {
         display: none;
     }
@@ -637,9 +641,11 @@ footer {
     .foot_logo {
         justify-content: center !important;
     }
-    .foot_logo span{
+
+    .foot_logo span {
         font-size: 2.1rem;
     }
+
     .sub_logo_title p {
         text-align: center;
     }
@@ -653,10 +659,26 @@ footer {
         text-align: center;
     }
 
-    .newsletter .newsletter_head,.foot_call ul.social    {
+    .newsletter .newsletter_head,
+    .foot_call ul.social {
         justify-content: center;
     }
+
     .foot_call {
+        margin-bottom: 1.5rem;
+    }
+
+    .row {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .explore_card .row {
+        padding: 0px 1rem;
+    }
+}
+@media (max-width:567px) {
+    .foot_call{
         margin-bottom: 1.5rem;
     }
 }
