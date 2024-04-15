@@ -582,5 +582,81 @@ footer {
 /* index responsive code start */
 
 @media (max-width:992px) {
-    
+    .for_mobile_view {
+        display: block;
+        padding-right: 3rem;
+    }
+
+    .menus {
+        display: none;
+    }
+
+    .landing_page_Extraction {
+        padding-left: 3rem;
+    }
+
+    ul.list-group {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .list-group .card {
+        margin: 1rem;
+    }
+
+    .humbarger-menu span {
+        background-color: #fff;
+    }
+}
+
+@media (max-width:768px) {
+    .main_content::before {
+        display: none;
+    }
+
+    .landing_page_Extraction {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        padding-left: 0rem;
+    }
+
+    .explore_card ul li img {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 0.5rem;
+    }
+
+    .find_place {
+        text-align: center;
+    }
+
+    .foot_logo {
+        justify-content: center !important;
+    }
+    .foot_logo span{
+        font-size: 2.1rem;
+    }
+    .sub_logo_title p {
+        text-align: center;
+    }
+
+    .foot_call h5 {
+        text-align: center;
+        margin-bottom: 0.5rem;
+    }
+
+    .foot_call ul li {
+        text-align: center;
+    }
+
+    .newsletter .newsletter_head,.foot_call ul.social    {
+        justify-content: center;
+    }
+    .foot_call {
+        margin-bottom: 1.5rem;
+    }
 }
