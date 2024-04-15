@@ -577,3 +577,10 @@ footer {
     transition: 0.25s ease-out;
     color: #940000;
 }
+
+
+/* index responsive code start */
+
+@media (max-width:992px) {
+    
+}
